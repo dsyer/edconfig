@@ -20,7 +20,7 @@
 		<ToggleOn Value="0" />
 	</BlockMouseDecay>
 	<YawAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisRaw>
@@ -41,7 +41,7 @@
 		<ToggleOn Value="0" />
 	</YawToRollButton>
 	<RollAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickX" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollAxisRaw>
@@ -54,7 +54,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RollRightButton>
 	<PitchAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</PitchAxisRaw>
@@ -80,7 +80,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
 	<VerticalThrustRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustRaw>
@@ -106,7 +106,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton>
 	<UseAlternateFlightValuesToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LThumb" />
+		<Primary Device="GamePad" Key="GamePad_LThumb" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</UseAlternateFlightValuesToggle>
@@ -116,22 +116,22 @@
 		<Deadzone Value="0.00000000" />
 	</YawAxisAlternate>
 	<RollAxisAlternate>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickX" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollAxisAlternate>
 	<PitchAxisAlternate>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</PitchAxisAlternate>
 	<LateralThrustAlternate>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</LateralThrustAlternate>
 	<VerticalThrustAlternate>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</VerticalThrustAlternate>
@@ -147,11 +147,11 @@
 		<ToggleOn Value="0" />
 	</ToggleReverseThrottleInput>
 	<ForwardKey>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="Keyboard" Key="Key_W" />
 	</ForwardKey>
 	<BackwardKey>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="Keyboard" Key="Key_S" />
 	</BackwardKey>
 	<ThrottleIncrement Value="0.00000000" />
@@ -172,14 +172,14 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_LTrigger">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_X" />
 	</SetSpeedZero>
 	<SetSpeed25>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed25>
@@ -188,8 +188,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed50>
 	<SetSpeed75>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_RTrigger">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeed75>
@@ -277,23 +277,23 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Z" />
 		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_RBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseBoostJuice>
 	<HyperSuperCombination>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_FaceUp" />
 		<Secondary Device="Keyboard" Key="Key_J" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
@@ -311,12 +311,12 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OrbitLinesToggle>
 	<SelectTarget>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_FaceDown" />
 		<Secondary Device="Keyboard" Key="Key_T" />
 	</SelectTarget>
 	<CycleNextTarget>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_G" />
 	</CycleNextTarget>
@@ -325,14 +325,14 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_H" />
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextHostileTarget>
@@ -361,8 +361,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Y" />
 	</CycleNextSubsystem>
@@ -375,34 +375,32 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_RTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger" />
 		<Secondary Device="Mouse" Key="Mouse_1" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_LTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger" />
 		<Secondary Device="Mouse" Key="Mouse_2" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_RBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_N" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_LBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="Keyboard" Key="Key_U" />
 	</DeployHardpointToggle>
 	<DeployHardpointsOnFire Value="1" />
 	<ToggleButtonUpInput>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_Delete" />
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
@@ -411,8 +409,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
@@ -422,31 +420,31 @@
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_RBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_PageUp" />
 	</RadarIncreaseRange>
 	<RadarDecreaseRange>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_LBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_PageDown" />
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseEnginesPower>
 	<IncreaseWeaponsPower>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseWeaponsPower>
 	<IncreaseSystemsPower>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSystemsPower>
 	<ResetPowerDistribution>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution>
 	<HMDReset>
@@ -454,8 +452,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HMDReset>
 	<ToggleCargoScoop>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Home" />
 		<ToggleOn Value="1" />
@@ -465,8 +463,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_L" />
 	</LandingGearToggle>
@@ -514,14 +512,14 @@
 	</UIFocus>
 	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_1" />
 	</FocusLeftPanel>
 	<FocusCommsPanel>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_2" />
 	</FocusCommsPanel>
@@ -531,14 +529,14 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel>
 	<FocusRadarPanel>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_3" />
 	</FocusRadarPanel>
 	<FocusRightPanel>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_4" />
 	</FocusRightPanel>
@@ -548,24 +546,24 @@
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_Back" />
+		<Primary Device="GamePad" Key="GamePad_Back" />
 		<Secondary Device="Keyboard" Key="Key_F1" />
 		<ToggleOn Value="0" />
 	</ShowPGScoreSummaryInput>
 	<HeadLookToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RThumb" />
+		<Primary Device="GamePad" Key="GamePad_RThumb" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
@@ -579,64 +577,64 @@
 	</FriendsMenu>
 	<OpenCodexGoToDiscovery>
 		<Primary Device="Keyboard" Key="Key_O" />
-		<Secondary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Secondary Device="GamePad" Key="GamePad_LBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Secondary>
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
 		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Secondary Device="GamePad" Key="GamePad_DPadUp">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Secondary>
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
 		<Primary Device="Keyboard" Key="Key_Apostrophe" />
-		<Secondary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Secondary Device="GamePad" Key="GamePad_RBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Secondary>
 	</ExplorationFSSEnter>
 	<UI_Up>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp" />
 		<Secondary Device="Keyboard" Key="Key_W" />
 	</UI_Up>
 	<UI_Down>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown" />
 		<Secondary Device="Keyboard" Key="Key_S" />
 	</UI_Down>
 	<UI_Left>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft" />
 		<Secondary Device="Keyboard" Key="Key_A" />
 	</UI_Left>
 	<UI_Right>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight" />
 		<Secondary Device="Keyboard" Key="Key_D" />
 	</UI_Right>
 	<UI_Select>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_FaceDown" />
 		<Secondary Device="Keyboard" Key="Key_Space" />
 	</UI_Select>
 	<UI_Back>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
 		<Secondary Device="Keyboard" Key="Key_Backspace" />
 	</UI_Back>
 	<UI_Toggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_FaceUp" />
 		<Secondary Device="Keyboard" Key="Key_Equals" />
 	</UI_Toggle>
 	<CycleNextPanel>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="Keyboard" Key="Key_E" />
 	</CycleNextPanel>
 	<CyclePreviousPanel>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="Keyboard" Key="Key_Q" />
 	</CyclePreviousPanel>
 	<CycleNextPage>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_RTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger" />
 		<Secondary Device="Keyboard" Key="Key_C" />
 	</CycleNextPage>
 	<CyclePreviousPage>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_LTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger" />
 		<Secondary Device="Keyboard" Key="Key_Z" />
 	</CyclePreviousPage>
 	<MouseHeadlook Value="1" />
@@ -661,7 +659,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
@@ -674,7 +672,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
@@ -682,7 +680,7 @@
 	<HeadlookMotionSensitivity Value="1.00000000" />
 	<yawRotateHeadlook Value="0" />
 	<CamPitchAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CamPitchAxis>
@@ -695,7 +693,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
@@ -708,7 +706,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
@@ -721,7 +719,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickX" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
@@ -752,24 +750,24 @@
 		<Deadzone Value="0.00000000" />
 	</CamZoomAxis>
 	<CamZoomIn>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_RTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger" />
 		<Secondary Device="Keyboard" Key="Key_Z" />
 	</CamZoomIn>
 	<CamZoomOut>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_LTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger" />
 		<Secondary Device="Keyboard" Key="Key_X" />
 	</CamZoomOut>
 	<CamTranslateZHold>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</CamTranslateZHold>
 	<GalaxyMapHome>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_FaceUp" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapHome>
 	<ToggleDriveAssist>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_Back" />
+		<Primary Device="GamePad" Key="GamePad_Back" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleDriveAssist>
@@ -781,7 +779,7 @@
 	<MouseBuggyYMode Value="" />
 	<MouseBuggyYDecay Value="0" />
 	<SteeringAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickX" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
@@ -794,7 +792,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickX" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
@@ -807,7 +805,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
@@ -820,47 +818,47 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
 	<BuggyPrimaryFireButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPrimaryFireButton>
 	<BuggySecondaryFireButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_FaceDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</AutoBreakBuggyButton>
 	<HeadlightsBuggyButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LThumb" />
+		<Primary Device="GamePad" Key="GamePad_LThumb" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleBuggyTurretButton>
 	<BuggyCycleFireGroupNext>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_RBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_N" />
 	</BuggyCycleFireGroupNext>
 	<BuggyCycleFireGroupPrevious>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_LBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyCycleFireGroupPrevious>
 	<SelectTarget_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget_Buggy>
 	<MouseTurretXMode Value="" />
@@ -868,7 +866,7 @@
 	<MouseTurretYMode Value="" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
@@ -881,7 +879,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
@@ -917,34 +915,34 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DecreaseSpeedButtonMax>
 	<IncreaseSpeedButtonPartial>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RTrigger" />
+		<Binding Device="GamePad" Key="GamePad_RTrigger" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</IncreaseSpeedButtonPartial>
 	<DecreaseSpeedButtonPartial>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LTrigger" />
+		<Binding Device="GamePad" Key="GamePad_LTrigger" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</DecreaseSpeedButtonPartial>
 	<IncreaseEnginesPower_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseEnginesPower_Buggy>
 	<IncreaseWeaponsPower_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseWeaponsPower_Buggy>
 	<IncreaseSystemsPower_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSystemsPower_Buggy>
 	<ResetPowerDistribution_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution_Buggy>
 	<ToggleCargoScoop_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
@@ -954,8 +952,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo_Buggy>
 	<RecallDismissShip>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceDown" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</RecallDismissShip>
@@ -965,14 +963,14 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus_Buggy>
 	<FocusLeftPanel_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft">
+			<Modifier Device="GamePad" Key="GamePad_DPadLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_1" />
 	</FocusLeftPanel_Buggy>
 	<FocusCommsPanel_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft">
+			<Modifier Device="GamePad" Key="GamePad_DPadUp" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_2" />
 	</FocusCommsPanel_Buggy>
@@ -981,14 +979,14 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel_Buggy>
 	<FocusRadarPanel_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft">
+			<Modifier Device="GamePad" Key="GamePad_DPadDown" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_3" />
 	</FocusRadarPanel_Buggy>
 	<FocusRightPanel_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft">
+			<Modifier Device="GamePad" Key="GamePad_DPadRight" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_4" />
 	</FocusRightPanel_Buggy>
@@ -1002,39 +1000,39 @@
 	</SystemMapOpen_Buggy>
 	<OpenCodexGoToDiscovery_Buggy>
 		<Primary Device="Keyboard" Key="Key_O" />
-		<Secondary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Secondary Device="GamePad" Key="GamePad_LBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Secondary>
 	</OpenCodexGoToDiscovery_Buggy>
 	<PlayerHUDModeToggle_Buggy>
 		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Secondary Device="GamePad" Key="GamePad_DPadUp">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Secondary>
 	</PlayerHUDModeToggle_Buggy>
 	<HeadLookToggle_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RThumb" />
+		<Primary Device="GamePad" Key="GamePad_RThumb" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle_Buggy>
 	<MultiCrewToggleMode>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LThumb" />
+		<Primary Device="GamePad" Key="GamePad_LThumb" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewToggleMode>
 	<MultiCrewPrimaryFire>
 		<Primary Device="Mouse" Key="Mouse_1" />
-		<Secondary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_RTrigger" />
+		<Secondary Device="GamePad" Key="Pos_GamePad_RTrigger" />
 	</MultiCrewPrimaryFire>
 	<MultiCrewSecondaryFire>
 		<Primary Device="Mouse" Key="Mouse_2" />
-		<Secondary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_LTrigger" />
+		<Secondary Device="GamePad" Key="Pos_GamePad_LTrigger" />
 	</MultiCrewSecondaryFire>
 	<MultiCrewPrimaryUtilityFire>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewPrimaryUtilityFire>
 	<MultiCrewSecondaryUtilityFire>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewSecondaryUtilityFire>
 	<MultiCrewThirdPersonMouseXMode Value="" />
@@ -1042,7 +1040,7 @@
 	<MultiCrewThirdPersonMouseYMode Value="" />
 	<MultiCrewThirdPersonMouseYDecay Value="0" />
 	<MultiCrewThirdPersonYawAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MultiCrewThirdPersonYawAxisRaw>
@@ -1055,7 +1053,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewThirdPersonYawRightButton>
 	<MultiCrewThirdPersonPitchAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MultiCrewThirdPersonPitchAxisRaw>
@@ -1069,7 +1067,7 @@
 	</MultiCrewThirdPersonPitchDownButton>
 	<MultiCrewThirdPersonMouseSensitivity Value="30.00000000" />
 	<MultiCrewThirdPersonFovAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MultiCrewThirdPersonFovAxisRaw>
@@ -1082,11 +1080,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewThirdPersonFovInButton>
 	<MultiCrewCockpitUICycleForward>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewCockpitUICycleForward>
 	<MultiCrewCockpitUICycleBackward>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MultiCrewCockpitUICycleBackward>
 	<OrderRequestDock>
@@ -1122,8 +1120,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</OpenOrders>
 	<PhotoCameraToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
@@ -1131,8 +1129,8 @@
 		</Secondary>
 	</PhotoCameraToggle>
 	<PhotoCameraToggle_Buggy>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceUp" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
@@ -1140,8 +1138,8 @@
 		</Secondary>
 	</PhotoCameraToggle_Buggy>
 	<PhotoCameraToggle_Humanoid>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight">
+			<Modifier Device="GamePad" Key="GamePad_FaceRight" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
@@ -1149,15 +1147,15 @@
 		</Secondary>
 	</PhotoCameraToggle_Humanoid>
 	<VanityCameraScrollLeft>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft" />
 		<Secondary Device="Keyboard" Key="Key_LeftArrow" />
 	</VanityCameraScrollLeft>
 	<VanityCameraScrollRight>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight" />
 		<Secondary Device="Keyboard" Key="Key_RightArrow" />
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RThumb" />
+		<Primary Device="GamePad" Key="GamePad_RThumb" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_0" />
 	</ToggleFreeCam>
 	<VanityCameraOne>
@@ -1201,23 +1199,23 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraTen>
 	<FreeCamToggleHUD>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_FaceUp" />
 		<Secondary Device="Keyboard" Key="Key_LeftControl" />
 	</FreeCamToggleHUD>
 	<FreeCamSpeedInc>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_RBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Equals" />
 	</FreeCamSpeedInc>
 	<FreeCamSpeedDec>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_LBumper">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_Minus" />
 	</FreeCamSpeedDec>
 	<MoveFreeCamY>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamY>
@@ -1236,7 +1234,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamBackwards>
 	<MoveFreeCamX>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickX" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamX>
@@ -1254,12 +1252,12 @@
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamZ>
 	<MoveFreeCamUpAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RTrigger" />
+		<Binding Device="GamePad" Key="GamePad_RTrigger" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamUpAxis>
 	<MoveFreeCamDownAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LTrigger" />
+		<Binding Device="GamePad" Key="GamePad_LTrigger" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamDownAxis>
@@ -1274,7 +1272,7 @@
 	<PitchCameraMouse Value="" />
 	<YawCameraMouse Value="" />
 	<PitchCamera>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchCamera>
@@ -1289,7 +1287,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchCameraDown>
 	<YawCamera>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawCamera>
@@ -1308,57 +1306,57 @@
 		<Deadzone Value="0.00000000" />
 	</RollCamera>
 	<RollCameraLeft>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="Keyboard" Key="Key_Q" />
 	</RollCameraLeft>
 	<RollCameraRight>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="Keyboard" Key="Key_E" />
 	</RollCameraRight>
 	<ToggleRotationLock>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
 		</Primary>
 		<Secondary Device="Keyboard" Key="Key_End" />
 	</ToggleRotationLock>
 	<FixCameraRelativeToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RThumb" />
+		<Primary Device="GamePad" Key="GamePad_RThumb" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_0" />
 	</FixCameraRelativeToggle>
 	<FixCameraWorldToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LThumb" />
+		<Primary Device="GamePad" Key="GamePad_LThumb" />
 		<Secondary Device="Keyboard" Key="Key_Space" />
 	</FixCameraWorldToggle>
 	<QuitCamera>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
 		<Secondary Device="Keyboard" Key="Key_Backspace" />
 	</QuitCamera>
 	<ToggleAdvanceMode>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_FaceDown" />
 		<Secondary Device="Keyboard" Key="Key_Delete" />
 	</ToggleAdvanceMode>
 	<FreeCamZoomIn>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp" />
 		<Secondary Device="Keyboard" Key="Key_UpArrow" />
 	</FreeCamZoomIn>
 	<FreeCamZoomOut>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown" />
 		<Secondary Device="Keyboard" Key="Key_DownArrow" />
 	</FreeCamZoomOut>
 	<FStopDec>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft" />
 		<Secondary Device="Keyboard" Key="Key_LeftArrow" />
 	</FStopDec>
 	<FStopInc>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight" />
 		<Secondary Device="Keyboard" Key="Key_RightArrow" />
 	</FStopInc>
 	<CommanderCreator_Undo>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CommanderCreator_Undo>
 	<CommanderCreator_Redo>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_FaceUp" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CommanderCreator_Redo>
 	<CommanderCreator_Rotation_MouseToggle>
@@ -1366,7 +1364,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CommanderCreator_Rotation_MouseToggle>
 	<CommanderCreator_Rotation>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CommanderCreator_Rotation>
@@ -1387,7 +1385,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.15000001" />
 	</ExplorationFSSCameraPitch>
@@ -1400,7 +1398,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickX" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.15000001" />
 	</ExplorationFSSCameraYaw>
@@ -1413,23 +1411,23 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_RTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_LTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomIn>
 	<ExplorationFSSMiniZoomOut>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSMiniZoomOut>
 	<ExplorationFSSRadioTuningX_Raw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.15000001" />
 	</ExplorationFSSRadioTuningX_Raw>
@@ -1448,11 +1446,11 @@
 	</ExplorationFSSRadioTuningAbsoluteX>
 	<FSSTuningSensitivity Value="1.00000000" />
 	<ExplorationFSSDiscoveryScan>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
 		<Secondary Device="Keyboard" Key="Key_Apostrophe" />
 	</ExplorationFSSQuit>
 	<FSSMouseXMode Value="" />
@@ -1463,7 +1461,7 @@
 	<FSSMouseDeadzone Value="0.00000000" />
 	<FSSMouseLinearity Value="1.00000000" />
 	<ExplorationFSSTarget>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_FaceDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSTarget>
 	<ExplorationFSSShowHelp>
@@ -1471,20 +1469,20 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_Back" />
-		<Secondary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_Back" />
+		<Secondary Device="GamePad" Key="GamePad_FaceRight" />
 	</ExplorationSAAExitThirdPerson>
 	<ExplorationSAANextGenus>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="Keyboard" Key="Key_E" />
 	</ExplorationSAANextGenus>
 	<ExplorationSAAPreviousGenus>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper" />
+		<Primary Device="GamePad" Key="GamePad_LBumper" />
 		<Secondary Device="Keyboard" Key="Key_Q" />
 	</ExplorationSAAPreviousGenus>
 	<SAAThirdPersonMouseXMode Value="" />
@@ -1493,7 +1491,7 @@
 	<SAAThirdPersonMouseYDecay Value="0" />
 	<SAAThirdPersonMouseSensitivity Value="30.00000000" />
 	<SAAThirdPersonYawAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonYawAxisRaw>
@@ -1506,7 +1504,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonYawRightButton>
 	<SAAThirdPersonPitchAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonPitchAxisRaw>
@@ -1519,7 +1517,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonPitchDownButton>
 	<SAAThirdPersonFovAxisRaw>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonFovAxisRaw>
@@ -1535,7 +1533,7 @@
 	<MouseHumanoidYMode Value="" />
 	<MouseHumanoidSensitivity Value="3.00000000" />
 	<HumanoidForwardAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickY" />
+		<Binding Device="GamePad" Key="GamePad_LStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidForwardAxis>
@@ -1548,7 +1546,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidBackwardButton>
 	<HumanoidStrafeAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_LStickX" />
+		<Binding Device="GamePad" Key="GamePad_LStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidStrafeAxis>
@@ -1561,7 +1559,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidStrafeRightButton>
 	<HumanoidRotateAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidRotateAxis>
@@ -1575,7 +1573,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidRotateRightButton>
 	<HumanoidPitchAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidPitchAxis>
@@ -1589,7 +1587,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidPitchDownButton>
 	<HumanoidSprintButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LThumb" />
+		<Primary Device="GamePad" Key="GamePad_LThumb" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HumanoidSprintButton>
@@ -1599,42 +1597,42 @@
 		<ToggleOn Value="0" />
 	</HumanoidWalkButton>
 	<HumanoidCrouchButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HumanoidCrouchButton>
 	<HumanoidJumpButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceDown" />
+		<Primary Device="GamePad" Key="GamePad_FaceDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidJumpButton>
 	<HumanoidPrimaryInteractButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidPrimaryInteractButton>
 	<HumanoidSecondaryInteractButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSecondaryInteractButton>
 	<HumanoidItemWheelButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
+		<Primary Device="GamePad" Key="GamePad_LBumper">
 			<Hold Value="1" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</HumanoidItemWheelButton>
 	<HumanoidEmoteWheelButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_LBumper">
+		<Primary Device="GamePad" Key="GamePad_LBumper">
 			<Hold Value="1" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</HumanoidEmoteWheelButton>
 	<HumanoidUtilityWheelCycleMode>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidUtilityWheelCycleMode>
 	<HumanoidItemWheelButton_XAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidItemWheelButton_XAxis>
@@ -1647,7 +1645,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidItemWheelButton_XRight>
 	<HumanoidItemWheelButton_YAxis>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HumanoidItemWheelButton_YAxis>
@@ -1661,28 +1659,28 @@
 	</HumanoidItemWheelButton_YDown>
 	<HumanoidItemWheel_AcceptMouseInput Value="0" />
 	<HumanoidPrimaryFireButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_RTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidPrimaryFireButton>
 	<HumanoidZoomButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_LTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</HumanoidZoomButton>
 	<HumanoidThrowGrenadeButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RBumper" />
+		<Primary Device="GamePad" Key="GamePad_RBumper" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidThrowGrenadeButton>
 	<HumanoidMeleeButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_RThumb" />
+		<Primary Device="GamePad" Key="GamePad_RThumb" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidMeleeButton>
 	<HumanoidReloadButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidReloadButton>
 	<HumanoidSwitchWeapon>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp" />
+		<Primary Device="GamePad" Key="GamePad_FaceUp" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSwitchWeapon>
 	<HumanoidSelectPrimaryWeaponButton>
@@ -1706,7 +1704,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSelectPreviousWeaponButton>
 	<HumanoidHideWeaponButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_Back" />
+		<Primary Device="GamePad" Key="GamePad_Back" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidHideWeaponButton>
 	<HumanoidSelectNextGrenadeTypeButton>
@@ -1718,7 +1716,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSelectPreviousGrenadeTypeButton>
 	<HumanoidToggleFlashlightButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown">
+			<Modifier Device="GamePad" Key="GamePad_FaceLeft" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleFlashlightButton>
 	<HumanoidToggleNightVisionButton>
@@ -1726,7 +1726,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleNightVisionButton>
 	<HumanoidToggleShieldsButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadDown" />
+		<Primary Device="GamePad" Key="GamePad_DPadDown" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleShieldsButton>
 	<HumanoidClearAuthorityLevel>
@@ -1754,23 +1754,23 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSelectShieldGrenade>
 	<HumanoidSwitchToRechargeTool>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_DPadLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSwitchToRechargeTool>
 	<HumanoidSwitchToCompAnalyser>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadRight" />
+		<Primary Device="GamePad" Key="GamePad_DPadRight" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSwitchToCompAnalyser>
 	<HumanoidSwitchToSuitTool>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp" />
+		<Primary Device="GamePad" Key="GamePad_DPadUp" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidSwitchToSuitTool>
 	<HumanoidToggleToolModeButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleToolModeButton>
 	<HumanoidToggleMissionHelpPanelButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidToggleMissionHelpPanelButton>
 	<HumanoidPing>
@@ -1790,20 +1790,18 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel_Humanoid>
 	<QuickCommsPanel_Humanoid>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadUp" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight">
+			<Modifier Device="GamePad" Key="GamePad_DPadUp" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</QuickCommsPanel_Humanoid>
 	<HumanoidOpenAccessPanelButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft">
-			<Hold Value="1" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidOpenAccessPanelButton>
 	<HumanoidConflictContextualUIButton>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceRight">
-			<Modifier Device="28DE11FF" DeviceIndex="0" Key="GamePad_DPadLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceRight">
+			<Modifier Device="GamePad" Key="GamePad_DPadLeft" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</HumanoidConflictContextualUIButton>
@@ -1813,29 +1811,29 @@
 		<Secondary Device="Mouse" Key="Mouse_3" />
 	</StoreEnableRotation>
 	<StorePitchCamera>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickY" />
+		<Binding Device="GamePad" Key="GamePad_RStickY" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</StorePitchCamera>
 	<StoreYawCamera>
-		<Binding Device="28DE11FF" DeviceIndex="0" Key="GamePad_RStickX" />
+		<Binding Device="GamePad" Key="GamePad_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</StoreYawCamera>
 	<StoreCamZoomIn>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_RTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_RTrigger" />
 		<Secondary Device="Keyboard" Key="Key_X" />
 	</StoreCamZoomIn>
 	<StoreCamZoomOut>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="Pos_GamePad_LTrigger" />
+		<Primary Device="GamePad" Key="Pos_GamePad_LTrigger" />
 		<Secondary Device="Keyboard" Key="Key_Z" />
 	</StoreCamZoomOut>
 	<StoreToggle>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceLeft" />
+		<Primary Device="GamePad" Key="GamePad_FaceLeft" />
 		<Secondary Device="Keyboard" Key="Key_Tab" />
 	</StoreToggle>
 	<HumanoidEmoteSlot1>
-		<Primary Device="28DE11FF" DeviceIndex="0" Key="GamePad_FaceUp">
+		<Primary Device="GamePad" Key="GamePad_FaceUp">
 			<Hold Value="1" />
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
