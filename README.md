@@ -14,3 +14,16 @@ Apply changes:
 $ cp /mnt/alien/Documents/ed/Bindings/Custom.4.0.binds /mnt/alien/AppData/Local/Frontier\ Developments/Elite\ Dangerous/Options/Bindings/
 ```
 
+Enable [SSHD](https://shendrick.net/Gaming/2022/05/30/sshonsteamdeck.html) on Steam Deck:
+
+```
+$ sudo systemctl enable sshd
+```
+
+(or just `start` and `stop` manually).
+
+Sync from Deck:
+
+```
+rsync -r "steamdeck:/home/deck/.steam/steam/steamapps/compatdata/359320/pfx/drive_c/users/steamuser/Saved Games/Frontier Developments/Elite Dangerous/" ~/Documents/journals/
+```
